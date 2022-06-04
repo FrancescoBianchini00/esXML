@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT piante_records (record+)>
+<!ELEMENT record (pianta, temperatura, substrato, clima, irrigatura, luce)>
+<!ELEMENT pianta (#PCDATA)>
+<!ELEMENT temperatura (#PCDATA)>
+<!ELEMENT substrato (#PCDATA)>
+<!ELEMENT clima (#PCDATA)>
+<!ELEMENT irrigatura (#PCDATA)>
+<!ELEMENT luce (#PCDATA)>
