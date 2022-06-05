@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE piante_records SYSTEM "piante.dtd">
+<piante_records>
+	<record>
+	  <pianta>Orbea Variegata</pianta>
+		<temperatura>Maggiore 10 (Celsius)</temperatura>
+		<substrato>Sabbia, granuli di argilla </substrato>
+		<clima>Asciutto</clima>
+		<irrigatura>Scarsa (al bisogno)</irrigatura>
+		<luce>Ombra luminosa</luce>
+	</record>
+	<record>
+	  <pianta>Scilla peruviana</pianta>
+		<temperatura>Maggiore 10 (Celsius)</temperatura>
+		<substrato>Generico</substrato>
+		<clima>Mite</clima>
+		<irrigatura>Pianta da xeriscape</irrigatura>
+		<luce>Sole intenso</luce>
+	</record>
+	<record>
+	  <pianta>Ruellia brittoniana 'Alba'</pianta>
+		<temperatura>Maggiore 5 (Celsius)</temperatura>
+		<substrato>Generico</substrato>
+		<clima>Mite</clima>
+		<irrigatura>Regolare</irrigatura>
+		<luce>Sole intenso</luce>
+	</record>
+	<record>
+	  <pianta>Pteris cretica 'Albolineata'</pianta>
+		<temperatura>Maggiore 2 (Celsius)</temperatura>
+		<substrato>Morbido e drenante</substrato>
+		<clima>Pantropicale</clima>
+		<irrigatura>Intensa</irrigatura>
+		<luce>Ombra luminosa</luce>
+	</record>
+	<record>
+	  <pianta>Crassula arborescens "Undulatifolia"</pianta>
+		<temperatura>Maggiore 5 (Celsius)</temperatura>
+		<substrato>Drenato e leggero</substrato>
+		<clima>Temperato</clima>
+		<irrigatura>Scarsa (al bisogno)</irrigatura>
+		<luce>Sole intenso</luce>
+	</record>
+	<record>
+	  <pianta>Stapelia obducta</pianta>
+		<temperatura>Maggiore 12 (Celsius)</temperatura>
+		<substrato>Sabbioso</substrato>
+		<clima>Tropicale</clima>
+		<irrigatura>Scarsa (al bisogno)</irrigatura>
+		<luce>Sole del mattino</luce>
+	</record>
+	<record>
+	  <pianta>Hippeastrum vittatum (Amaryllis )</pianta>
+		<temperatura>Minore 15 (Celsius)</temperatura>
+		<substrato>Terreno da giardino </substrato>
+		<clima>Mediterraneo</clima>
+		<irrigatura>Scarsa (al bisogno)</irrigatura>
+		<luce>Sole intenso</luce>
+	</record>
+	<record>
+	  <pianta>Oxalis bowiei</pianta>
+		<temperatura>Maggiore 10 (Celsius)</temperatura>
+		<substrato>Fertile con buon drenaggio</substrato>
+		<clima>Temperato</clima>
+		<irrigatura>Al bisogno</irrigatura>
+		<luce>Mezz&#8217;ombra</luce>
+	</record>
+	<record>
+	  <pianta>Tradescantia fluminensis 'Quadricolor'</pianta>
+		<temperatura>Maggiore 10 (Celsius)</temperatura>
+		<substrato>Fertile con buon drenaggio</substrato>
+		<clima>Mediterraneo</clima>
+		<irrigatura>Al bisogno</irrigatura>
+		<luce>Sole del mattino</luce>
+	</record>
+	<record>
+	  <pianta>Abutilon 'Julia'</pianta>
+		<temperatura>Tra 10-15 (Celsius)</temperatura>
+		<substrato>Ricco</substrato>
+		<clima>Mite</clima>
+		<irrigatura>Intensa</irrigatura>
+		<luce>Mezz'ombra</luce>
+	</record>
+</piante_records>
