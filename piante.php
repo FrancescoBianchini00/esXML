@@ -14,16 +14,17 @@
 
 body {
 	
-	background-color: #000024;
+	background-color: #696969;
 	color: white;
 
 }
 
 .scritta {
 	
-	color: red;
+	color: #DC143C;
 	font-style: oblique;
-	font-weight: 1500;
+	font-weight: 2000;
+	font-size: 140%;
 	
 }
 
@@ -37,7 +38,7 @@ td.centrato {
 
 <table border="2" cellspacing="5" cellpadding="10">
 
-	<caption class = "scritta"> Valori ottimali per la crescita di piante </caption>
+	<caption class = "scritta"><h3> Valori ottimali per la crescita di piante <h3></caption>
 
 	<thead>
 		<tr>
@@ -103,17 +104,26 @@ td.centrato {
 
 <?php
 
-if ($ultimo < $elementi->length - 1) {
-     echo '<p><a href="piante.php?next='
-     . $ultimo
-     . '">Pagina successiva</a></p>';
+if ($ultimo < $elementi->length) {
+    echo '<br /><p><a href="piante.php?next='
+    . $ultimo
+    . '">Pagina successiva</a></p>';
+	
 } else {
-	print '<p><a href="piante.php?prec='
-	. $primo
-	. '">Pagina precedente</a></p>';
+	print '<h4> Ultima pagina :) <br /></h4> <br />';
+}
+
+if (!($ultimo < $elementi->length)) {
+    echo '<p><a href="piante.php?prec='
+    . $primo
+    . '">Pagina iniziale</a></p>';
 }
 
 ?>
+
+<p><a href = "aggiungipiante.php">Aggiungi pianta</a></p>
+
+<p><a href = "eliminapiante.php">Elimina pianta</a></p>
 
 </body>
 </html>
