@@ -1,3 +1,10 @@
+<?php
+
+ini_set('display_errors', 0);
+error_reporting(E_ALL);
+
+?>
+
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -22,8 +29,6 @@ body {
 </style>
 
 <?php
-
-error_reporting(E_ALL & E_NOTICE);
 
 if ($_POST ['invio'] == "Aggiungi pianta" && $_POST ['nome'] && $_POST ['temperatura'] && $_POST ['substrato'] && $_POST ['clima'] && $_POST ['irrigatura'] && $_POST ['luce']) {
 	
